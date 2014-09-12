@@ -3,6 +3,7 @@
 *.war
 *.ear
 *.class
+
 # eclipse specific git ignore
 *.pydevproject
 .project
@@ -18,7 +19,9 @@ local.properties
 .classpath
 .settings/
 .loadpath
+
 # External tool builders
 .externalToolBuilders/
+
 # Locally stored "Eclipse launch configurations"
 *.launch
