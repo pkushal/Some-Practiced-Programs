@@ -1,0 +1,22 @@
+package Codes;
+
+public class ReverseWordsInString {
+	public static void main(String[] args) {
+		ReverseWordsInString r = new ReverseWordsInString();
+		System.out.println(r.reverseWords("Kushal is my name"));
+	}
+
+	public String reverseWords(String s) {
+		int length = s.length();
+		int space = 0;
+		StringBuffer sb = new StringBuffer();
+		for (int i = length - 1; i >= 0; i--) {
+			if (Character.isWhitespace(s.charAt(i))) {
+				space = i;
+				
+			}
+		}
+		return s;
+	}
+	public void append(StringBuffer)
+}

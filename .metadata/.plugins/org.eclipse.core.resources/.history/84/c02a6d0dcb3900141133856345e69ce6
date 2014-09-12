@@ -1,0 +1,12 @@
+package Codes;
+
+public class ReverseWordsInString {
+	public static void main(String[] args) {
+		ReverseWordsInString r = new ReverseWordsInString();
+		System.out.println(r.reverseWords("Kushal is my name"));
+	}
+
+	public String reverseWords(String s) {
+		return s;
+	}
+}
